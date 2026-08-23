@@ -17,14 +17,15 @@
   </head>
 
   <body>
+    <main class="quiz-container">
 
     <h1 id="headline-1">Color Mixing Quiz 🎨</h1>
 
     <p id="tagline-1">Can you mix the right colors?</p>
-
-    <p>Score:</p>
-    <p class="scoreboard">0</p>
-
+    <div class="score-area">
+     <p>Score:</p>
+     <p class="scoreboard">0</p>
+    </div>
 
     <!-- QUESTION 1 -->
 
@@ -40,7 +41,7 @@
         <button id="answer-2">Blue and Yellow</button>
         <button id="answer-3">Red and Yellow</button>
       </div>
-
+      <p id="feedback-1" class="feedback"></p>
     </div>
 
 
@@ -58,7 +59,7 @@
         <button id="answer-5">Blue and Yellow</button>
         <button id="answer-6">Red and Yellow</button>
       </div>
-
+      <p id="feedback-2" class="feedback"></p>
     </div>
 
 
@@ -76,9 +77,10 @@
         <button id="answer-8">Red and Yellow</button>
         <button id="answer-9">Red and Blue</button>
       </div>
-
+      <p id="feedback-3" class="feedback"></p>
     </div>
-
+    
+   </main>
 
     <script src="script.js"></script>
 
