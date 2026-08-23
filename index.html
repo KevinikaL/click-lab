@@ -2,15 +2,39 @@
 <html>
  <head>
     <title>Click Lab</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/choice-list.css">
+    <link rel="stylesheet" href="css/scoreboard.css">
+    <link rel="stylesheet" href="css/choice-list-buttons.css">
+    <link rel="stylesheet" href="css/style.css">
  </head>
  <body>
     <h1 id="headline-1">My Click Lab</h1>
     <p id="tagline-1">Welcome to my page!</p>
-    <h2 id="question-1">What two colors make green?</h2>
-
-    <button id="answer-1">Red and Blue</button>
-    <button id="answer-2">Blue and Yellow</button>
-    <button id="answer-3">Red and Yellow</button>
+    <p>Score:</p>
+     <p class="scoreboard">0</p>
+    <div class="card">
+     <h2 id="question-1">What two colors make green?</h2>
+     <div class="choice-list">
+      <button id="answer-1">Red and Blue</button>
+      <button id="answer-2">Blue and Yellow</button>
+      <button id="answer-3">Red and Yellow</button>
+    </div>
+    <div class="card">
+     <h2 id="question-2">What two colors make purple?</h2>
+     <div class="choice-list">
+      <button id="answer-4">Red and Blue</button>
+      <button id="answer-5">Blue and Yellow</button>
+      <button id="answer-6">Red and Yellow</button>
+    </div>
+     <div class="card">
+      <h2 id="question-3">What two colors make orange?</h2>
+      <div class="choice-list">
+     <button id="answer-7">Blue and Yellow</button>
+     <button id="answer-8">Red and Yellow</button>
+     <button id="answer-9">Red and Blue</button>
+    </div>
     <script src="script.js"></script>
  </body>
  </html>

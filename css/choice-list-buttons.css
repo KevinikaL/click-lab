@@ -1,0 +1,11 @@
+/* choice-list-buttons.css — the answer buttons, and nothing else. */
+
+.choice-list button {
+    border: 3px solid var(--pico-primary, #2563eb);
+    text-align: left;
+  }
+  
+  .choice-list button:hover {
+    border-color: var(--pico-primary-hover, #015887);
+  }
+  
