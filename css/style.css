@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    background-color: black;
   }
   body > h1,
 body > p {
