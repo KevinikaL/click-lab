@@ -1,0 +1,13 @@
+body {
+    min-height: 100vh;
+  }
+  body > h1,
+body > p {
+  color: white;
+}
+  .choice-list button {
+    background-color: black;
+    border-color: black;
+    color: white;
+  }
+  

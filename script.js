@@ -10,6 +10,11 @@ let answer2 = document.getElementById("answer-2");
 
 answer2.addEventListener("click", function () {
   document.getElementById("question-1").textContent = "Correct!";
+  document.body.style.backgroundColor = "green";
+
+  answer2.style.backgroundColor = "green";
+  answer2.style.borderColor = "green";
+  answer2.style.color = "white";
 });
 let answer3 = document.getElementById("answer-3");
 
@@ -20,6 +25,11 @@ let answer4 = document.getElementById("answer-4");
 
 answer4.addEventListener("click", function () {
   document.getElementById("question-2").textContent = "Correct!";
+  document.body.style.backgroundColor = "purple";
+
+  answer4.style.backgroundColor = "purple";
+  answer4.style.borderColor = "purple";
+  answer4.style.color = "white";
 });
 
 let answer5 = document.getElementById("answer-5");
@@ -43,6 +53,11 @@ let answer8 = document.getElementById("answer-8");
 
 answer8.addEventListener("click", function () {
   document.getElementById("question-3").textContent = "Correct!";
+  document.body.style.backgroundColor = "orange";
+
+  answer8.style.backgroundColor = "orange";
+  answer8.style.borderColor = "orange";
+  answer8.style.color = "black";
 });
 
 let answer9 = document.getElementById("answer-9");
