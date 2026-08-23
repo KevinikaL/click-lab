@@ -1,0 +1,9 @@
+.choice-list {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  
+  .choice-list button {
+    flex: 1;
+  }
