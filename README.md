@@ -14,3 +14,10 @@ Anyone who wants to test their knowledge of basic color mixing.
 
 ## My track
 Quiz
+
+## What I'd add next
+My project is a color mixing quiz where players answer three questions about which colors mix together to create a new color.
+
+One thing I built that I'd point out is the scoring and feedback system, which tells the player whether an answer is correct or incorrect and keeps track of their score.
+
+Next, I'd add a restart button so players can reset the quiz and play again.
