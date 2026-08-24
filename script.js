@@ -19,7 +19,8 @@ let answer1 = document.getElementById("answer-1");
 
 answer1.addEventListener("click", function () {
 
-  document.getElementById("feedback-1").textContent = "Incorrect!";
+  document.getElementById("feedback-1").textContent = "Incorrect!  The correct answer is Blue and Yellow.";
+  document.getElementById("feedback-1").className = "feedback incorrect";
 
 });
 
@@ -29,6 +30,7 @@ let answer2 = document.getElementById("answer-2");
 answer2.addEventListener("click", function () {
 
   document.getElementById("feedback-1").textContent = "Correct!";
+  document.getElementById("feedback-1").className = "feedback correct";
 
   document.body.style.backgroundColor = "green";
 
@@ -51,7 +53,8 @@ let answer3 = document.getElementById("answer-3");
 
 answer3.addEventListener("click", function () {
 
-  document.getElementById("feedback-1").textContent = "Incorrect!";
+  document.getElementById("feedback-1").textContent = "Incorrect!  The correct answer is Blue and Yellow.";
+  document.getElementById("feedback-1").className = "feedback incorrect";
 
 });
 
@@ -63,6 +66,7 @@ let answer4 = document.getElementById("answer-4");
 answer4.addEventListener("click", function () {
 
   document.getElementById("feedback-2").textContent = "Correct!";
+  document.getElementById("feedback-2").className = "feedback correct";
 
   document.body.style.backgroundColor = "purple";
 
@@ -85,7 +89,8 @@ let answer5 = document.getElementById("answer-5");
 
 answer5.addEventListener("click", function () {
 
-  document.getElementById("feedback-2").textContent = "Incorrect!";
+  document.getElementById("feedback-2").textContent = "Incorrect! The correct answer is Red and Blue.";
+  document.getElementById("feedback-2").className = "feedback incorrect";
 
 });
 
@@ -94,8 +99,8 @@ let answer6 = document.getElementById("answer-6");
 
 answer6.addEventListener("click", function () {
 
-  document.getElementById("feedback-2").textContent = "Incorrect!";
-
+  document.getElementById("feedback-2").textContent = "Incorrect! The correct answer is Red and Blue.";
+  document.getElementById("feedback-2").className = "feedback incorrect";
 });
 
 
@@ -105,7 +110,8 @@ let answer7 = document.getElementById("answer-7");
 
 answer7.addEventListener("click", function () {
 
-  document.getElementById("feedback-3").textContent = "Incorrect!";
+  document.getElementById("feedback-3").textContent = "Incorrect! The correct answer is Red and Yellow.";
+  document.getElementById("feedback-3").className = "feedback incorrect";
 
 });
 
@@ -115,6 +121,7 @@ let answer8 = document.getElementById("answer-8");
 answer8.addEventListener("click", function () {
 
   document.getElementById("feedback-3").textContent = "Correct!";
+  document.getElementById("feedback-3").className = "feedback correct";
 
   document.body.style.backgroundColor = "orange";
 
@@ -137,6 +144,7 @@ let answer9 = document.getElementById("answer-9");
 
 answer9.addEventListener("click", function () {
 
-  document.getElementById("feedback-3").textContent = "Incorrect!";
+  document.getElementById("feedback-3").textContent = "Incorrect! The correct answer is Red and Yellow.";
+  document.getElementById("feedback-3").className = "feedback incorrect";
 
 });
